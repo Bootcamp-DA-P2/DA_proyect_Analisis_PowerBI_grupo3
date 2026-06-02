@@ -1,8 +1,8 @@
 # DA_proyect_Analisis_PowerBI_grupo3
-# 📊 Proyecto de Análisis de Datos: Airbnb Europe Performance
+# 📊 Proyecto de Análisis de Datos: Airbnb Performance
 
 ## 📋 Descripción del Proyecto
-Este proyecto consiste en la unificación, limpieza profunda y modelado de datos de reservas de Airbnb en 6 ciudades europeas clave: London, Madrid, Milan, New York, Sydney y Tokyo. El objetivo principal fue consolidar archivos independientes en un modelo de datos optimizado bajo la arquitectura de **Estrella (Star Schema)** para garantizar un rendimiento eficiente y facilitar la posterior creación de dashboards en Power BI.
+Este proyecto consiste en la unificación, limpieza profunda y modelado de datos de reservas de Airbnb en 6 ciudades globales clave: London, Madrid, Milan, New York, Sydney y Tokyo. El objetivo principal fue consolidar archivos independientes en un modelo de datos optimizado bajo la arquitectura de **Estrella (Star Schema)** para garantizar un rendimiento eficiente y facilitar la posterior creación de dashboards en Power BI.
 
 ---
 
@@ -125,25 +125,6 @@ El informe se divide en pestañas específicas para un análisis en profundidad 
 
 #### 📍 Análisis del Mercado: New York, Tokyo y Sydney
 *(Espacio para añadir capturas o comentarios del resto de las ciudades desarrolladas en el informe).*
-
----
-
-## 🧮 Fórmulas y Métricas DAX Clave
-
-A continuación se detallan las medidas DAX principales desarrolladas para el cálculo de los indicadores del negocio:
-
-```dax
-// Reemplazar estos ejemplos con las fórmulas exactas que se crearon en Power BI
-Total Recaudado = SUM(Facts_airbnb[price])
-```
-
-```dax
-Total Registros = COUNTROWS(Facts_airbnb)
-```
-
-```dax
-Precio Promedio = AVERAGE(Facts_airbnb[price])
-```
 
 ---
 
