@@ -6,6 +6,25 @@ Este proyecto consiste en la unificación, limpieza profunda y modelado de datos
 
 ---
 
+## 🎯 Objetivos del Proyecto e Hipótesis de Negocio
+
+El desarrollo de este modelo de datos y sus posteriores dashboards interactivos se diseñó con el fin de responder a los siguientes objetivos estratégicos y validar tres hipótesis clave del mercado inmobiliario turístico:
+
+### 1. Rentabilidad por Tipo de Alojamiento (`Room Type` vs. `Precio Promedio`)
+* **Objetivo**: Evaluar qué tipologías de habitaciones generan mayor rentabilidad económica dentro de la plataforma.
+* **Hipótesis**: Los precios por noche de los **apartamentos/casas completos** (`Entire home/apt`) son significativamente superiores en comparación con las **habitaciones privadas** (`Private room`), justificando la concentración de la oferta en esta categoría.
+
+### 2. Brecha de Precios Intercontinental (`Ciudades Globales` vs. `Ciudades Europeas`)
+* **Objetivo**: Cuantificar las diferencias de precio medio por noche entre los distintos mercados geográficos analizados.
+* **Hipótesis**: El precio medio de los alquileres en grandes urbes y capitales financieras globales como **Nueva York y Londres** es drásticamente mayor en comparación con destinos culturales y turísticos europeos tradicionales como **Madrid o Milán**.
+
+### 3. Análisis de Densidad Territorial y Concentración Geográfica (`Barrios`)
+* **Objetivo**: Identificar patrones de distribución espacial de las propiedades disponibles para entender la saturación del mercado.
+* **Hipótesis (Principio de Pareto)**: El **80% de la oferta total** de alojamientos se concentra estrictamente en los barrios correspondientes al **centro histórico y zonas turísticas neurálgicas** de cada ciudad, dejando las zonas periféricas o residenciales prácticamente desiertas.
+
+---
+
+
 ## 🛠️ Tecnologías Utilizadas
 * **Power BI / Power Query**: Extracción, transformación, carga (ETL) y modelado de datos.
 * **Formatos de Origen**: Archivos de texto plano (.CSV).
@@ -69,7 +88,7 @@ Se aislaron las entidades del negocio eliminando estrictamente los registros dup
 
 ## 📊 Visualización de Datos (Dashboard en Power BI)
 
-> 💡 *Instrucciones para el equipo: Para añadir las capturas de pantalla de su dashboard en GitHub, guarden las imágenes en una carpeta llamada `images` dentro de su repositorio y reemplacen la ruta `images/tu_captura.png`.*
+> 💡 *Instrucciones para el equipo: Para añadir las capturas de pantalla de su dashboard en GitHub, guardar las imágenes en una carpeta llamada `images` dentro de su repositorio y reemplacen la ruta `images/tu_captura.png`.*
 
 ### 🖥️ Dashboard Principal: Análisis Global de Mercado
 El informe cuenta con un diseño intuitivo orientado al usuario de negocio, utilizando la paleta de colores corporativa de Airbnb. Incluye filtros interactivos por **Año de Última Review**, **Tipo de Alojamiento** y **Rango de Precios (Cheap, Medium, Expensive)**, además de un menú de navegación lateral para filtrar por ciudades específicas.
@@ -114,7 +133,7 @@ El informe se divide en pestañas específicas para un análisis en profundidad 
 A continuación se detallan las medidas DAX principales desarrolladas para el cálculo de los indicadores del negocio:
 
 ```dax
-// Reemplacen estos ejemplos con las fórmulas exactas que crearon en Power BI
+// Reemplazar estos ejemplos con las fórmulas exactas que se crearon en Power BI
 Total Recaudado = SUM(Facts_airbnb[price])
 ```
 
