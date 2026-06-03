@@ -194,9 +194,9 @@ Si analizamos el comportamiento de los gráficos de barras horizontales por ciud
 
 ## 👥 Integrantes del Equipo
 
-* **Alejandra Duque García** - *[Rol en el proyecto, ej. Data Analyst / Data Engineer]* - [GitHub](https://github.com/ALEJANDRADG2612) | [LinkedIn](https://linkedin.com/in/aduquegarcia/)
-* **Daniel Luque Gallardo** - *[Rol en el proyecto]* - [GitHub](https://github.com/daluga0503) | [LinkedIn](https://linkedin.com/in/daniel-luque-gallardo/)
-* **Romina Navea Rodríguez** - *[Rol en el proyecto]* - [GitHub](https://github.com/rnavea-r) | [LinkedIn](https://linkedin.com/in/romina-navearod/)
+* **Alejandra Duque García** - *[Business Analyst & Presentación]* - [GitHub](https://github.com/ALEJANDRADG2612) | [LinkedIn](https://linkedin.com/in/aduquegarcia/)
+* **Daniel Luque Gallardo** - *[Data Analyst & Dashboard Specialist]* - [GitHub](https://github.com/daluga0503) | [LinkedIn](https://linkedin.com/in/daniel-luque-gallardo/)
+* **Romina Navea Rodríguez** - *[Data Engineer & Documentación]* - [GitHub](https://github.com/rnavea-r) | [LinkedIn](https://linkedin.com/in/romina-navearod/)
 
 ---
 **Link a Trello de metodología Scrum**: [Trello](https://trello.com/invite/b/6a1fca95521e999155664915/ATTIae46090b5b4ada2e90327286e50baaab62EAD461/daproyectanalisispowerbigrupo3)
