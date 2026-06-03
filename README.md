@@ -130,10 +130,58 @@ El informe se divide en pestañas específicas para un análisis en profundidad 
 
 ## 🎯 Conclusiones del Análisis de Negocio
 
-* **Insight 1 (Precios)**: *[Escribir aquí qué ciudad es la más costosa y por qué, basándose en el gráfico de anillo]*.
-* **Insight 2 (Volumen de Mercado)**: *[Escribir aquí qué ciudad concentra la mayor cantidad de registros según el gráfico de columnas]*.
-* **Insight 3 (Comportamiento de Oferta)**: *[Escribir aquí qué impacto tienen los Súper Anfitriones o el Top 10 en la concentración de alquileres]*.
+* ** Hipótesis 1: Rentabilidad por Tipo de Alojamiento
+Pregunta: ¿Los apartamentos completos (Entire home/apt) generan precios significativamente superiores a las habitaciones privadas (Private Room)?
 
+Resultado: SÍ, se cumple parcialmente, pero depende fuertemente de la ciudad.
+
+Ciudades con diferencia drástica (Se cumple):
+
+Londres: El gráfico Agrupación por Precio y Tipo Habitación muestra que la gran mayoría de los apartamentos completos se encuentran en el rango de precio Medium (barra naranja que llega a casi 40 mil registros). En cambio, para las habitaciones privadas, casi la totalidad de la oferta es Cheap (barra azul, más de 30 mil).
+
+Nueva York (NY): En los apartamentos completos predomina el precio Medium de forma abrumadora, mientras que en las habitaciones privadas domina absolutamente el rango Cheap.
+
+Sídney: Sigue exactamente la misma tendencia; los apartamentos completos son mayoritariamente de precio medio y las habitaciones privadas son baratas.
+
+Ciudades con menor diferencia o comportamiento distinto (No se cumple tan claramente):
+
+Madrid y Milán: En ambas ciudades, tanto para los apartamentos completos como para las habitaciones privadas, la barra dominante es la Cheap (azul). Si bien los apartamentos completos tienen un volumen visible de precios medios (barra naranja), la diferencia no es tan "significativa" a nivel global de precios como en las ciudades anglosajonas.
+
+* ** Hipótesis 2: Brecha de Precios Intercontinental.
+Pregunta: ¿Nueva York y Londres tienen precios medios notablemente más altos que destinos culturales como Madrid o Milán?
+
+Resultado: SÍ, se cumple plenamente.
+
+Al observar el gráfico de donut "Precio Promedio por Ciudad" del panel principal, vemos claramente la división de precios medios:
+
+Londres y Nueva York a la cabeza: * Londres: 155,36 (El precio promedio más alto del dashboard).
+
+Nueva York: 152,72.
+
+Destinos culturales europeos notablemente más bajos:
+
+Milán: 126,61.
+
+Madrid: 97,40 (El segundo más bajo, solo por encima de Tokio).
+
+La diferencia entre el precio medio de Londres (155,36) y el de Madrid (97,40) es de más del 55%, lo que valida por completo tu hipótesis de una brecha de precios intercontinental/financiera notable.
+
+* ** Hipótesis 3: Concentración en Barrios Históricos/Turísticos
+Pregunta: ¿El 80% de la oferta se concentra en barrios históricos y zonas turísticas, dejando las periféricas vacías?
+
+Resultado: SÍ se cumple la alta concentración, aunque el dashboard no cuenta con un mapa o etiqueta explícita de "periferia" para asegurar el porcentaje exacto del 80%, los gráficos de "Barrios más Populares" lo respaldan fuertemente.
+
+Si analizamos el comportamiento de los gráficos de barras horizontales por ciudad:
+
+Madrid: Los barrios de Embajadores (2,3 mil), Universidad (1,9 mil), Palacio (1,5 mil) y Sol (1,1 mil)—todos pertenecientes al hipercentro histórico y turístico de la ciudad—acumulan una enorme cantidad de registros en comparación con los barrios que cierran el Top 10 (Goya o Argüelles con apenas 0,3 mil).
+
+Londres: Westminster (9,6 mil) y Tower Hamlets (8,2 mil) lideran de manera masiva la oferta.
+
+Nueva York: Williamsburg (3,9 mil) y Bedford-Stuyvesant (3,7 mil) en Brooklyn, junto a Harlem (2,7 mil) y Hell's Kitchen en Manhattan, concentran la gran mayoría de los registros.
+
+Milán: Buenos Aires - Venezia y Duomo (el centro neurálgico absoluto) lideran con ventaja.
+
+Conclusión de esta hipótesis: Hay una distribución tipo "cola larga" (pocas zonas acumulan la gran mayoría del volumen), lo que confirma que el alojamiento turístico se canibaliza en las zonas de mayor interés cultural y céntrico.
 ---
 
 ## 👥 Integrantes del Equipo
