@@ -129,7 +129,7 @@ Radiografía estadística del ecosistema de alojamiento en Nueva York (p. 6). Ev
 ![Dashboard Milan](images/dashboard_sydney.png)
 Gráfico del mercado inmobiliario turístico en la costa australiana (p. 7). Destaca la relevancia de las zonas costeras y céntricas como Sydney y Waverley, midiendo la reputación de los propietarios con más alquileres activos.
 
-#### 📍 Análisis del Mercado: New York
+#### 📍 Análisis del Mercado: Tokyo
 ![Dashboard Milan](images/dashboard_tokyo.png)
 Vista analítica del comportamiento de Airbnb en el mercado asiático (p. 3). Permite identificar las tendencias de reserva en distritos clave como Shinjuku y Taito, contrastando la oferta entre habitaciones privadas y departamentos completos.
 
