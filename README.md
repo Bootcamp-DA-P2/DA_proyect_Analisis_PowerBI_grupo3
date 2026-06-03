@@ -114,7 +114,7 @@ El informe se divide en pestañas específicas para un análisis en profundidad 
 Exploración del mercado con mayor volumen de datos del proyecto. Muestra la concentración de alojamientos en zonas de alta demanda turística como Westminster y Tower Hamlets, evaluando el impacto económico de los anfitriones top.
 
 #### 📍 Análisis del Mercado: Madrid
-![Dashboard Madrid](images/dashboard_madrid.png)
+![Dashboard Madrid](images/Dashboard_madrid.png)
 Análisis detallado del mercado español centrado en la almendra central de la capital (p. 2). Destaca el volumen de registros en barrios emblemáticos como Embajadores y Universidad, junto con la distribución de ingresos según el tipo de propiedad.
 
 #### 📍 Análisis del Mercado: Milán
