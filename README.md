@@ -125,7 +125,7 @@ Panel enfocado en la capital de la moda y el diseño italiano (p. 5). Analiza la
 ![Dashboard Milan](images/dashboard_ny.png)
 Radiografía estadística del ecosistema de alojamiento en Nueva York (p. 6). Evalúa la densidad de ofertas en vecindarios históricos como Williamsburg y Bedford-Stuyvesant, visibilizando la relación entre precios y tipo de hospedaje.
 
-#### 📍 Análisis del Mercado: New York
+#### 📍 Análisis del Mercado: Sydney
 ![Dashboard Milan](images/dashboard_sydney.png)
 Gráfico del mercado inmobiliario turístico en la costa australiana (p. 7). Destaca la relevancia de las zonas costeras y céntricas como Sydney y Waverley, midiendo la reputación de los propietarios con más alquileres activos.
 
